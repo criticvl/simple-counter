@@ -1,0 +1,45 @@
+
+@media only screen and (max-width: 1280px) {
+    .main-div{
+        width: 60%;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    *{
+        box-sizing: border-box;
+        font-size: 3.2vw !important;
+    }
+    .main-div{
+        width: 70%;
+    }
+    button{
+        width: 50vw !important;
+        height: 6vw !important;
+    }
+    .button-div{
+        flex-direction: column;
+        justify-content: space-around;
+        width: min-content !important;
+        margin: auto;
+        height: 16vw;
+    }
+    .saved-numbers-ul{
+        width: 50vw !important;
+        height: min-content !important;
+        margin-top: 2vw !important;
+    }
+    .button-clear{
+        margin-top: 1vw !important;
+    }
+    .button-save{
+        margin-top: 2vw !important;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .main-div{
+        width: 80%;
+    }
+}

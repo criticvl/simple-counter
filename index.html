@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./adaptive.css" />
+    <link rel="icon" type="image/x-icon" href="./counter.ico" />
+
+    <title>Simple Counter</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="main-div">
+        <h1>Counter:</h1>
+        <h2 id="counter">0</h2>
+        <div class="button-div">
+          <button onclick="increment()">+</button>
+          <button onclick="decrement()">-</button>
+        </div>
+        <div class="center-div">
+          <button onclick="clear_n()" class="button-clear">CLEAR</button>
+        </div>
+        <div class="center-div">
+          <button onclick="save_n()" class="button-save">SAVE</button>
+        </div>
+        <div class="center-div">
+          <ul id="num-list" class="saved-numbers-ul"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

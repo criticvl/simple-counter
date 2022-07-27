@@ -1,0 +1,140 @@
+* {
+    font-family: monospace;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body{
+    background-color: #252525;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(36, 36, 36);
+    margin: 0 0 14px 0;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(36, 36, 36);
+    margin: auto;
+    text-align: center;
+    font-size: 28px;
+    margin: 4px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-div {
+    background: rgb(189, 189, 189) none repeat scroll 0 0;
+    border-radius: 8px;
+    padding: 30px;
+    width: 40%;
+    overflow: auto;
+}
+
+.button-div {
+    height: 40px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-div button {
+    background: rgb(159, 159, 159);
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 8px;
+    padding: auto;
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+    width: 40%;
+}
+
+.button-clear {
+    background: rgb(159, 159, 159);
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 8px;
+    padding: auto;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 70%;
+    margin-top: 14px;
+}
+
+.button-save {
+    background: rgb(136, 183, 141);
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 8px;
+    padding: auto;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 70%;
+    margin-top: 14px;
+}
+
+.center-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.saved-numbers-ul {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding: 8px;
+    margin-top: 14px;
+    margin-bottom: 0px;
+    list-style-type: none;
+    width: 90%;
+    height: 40px;
+    background: rgb(159, 159, 159);
+    border-radius: 4px;
+}
+
+.saved-numbers-ul::-webkit-scrollbar {
+    height: 1vw;
+}
+
+.saved-numbers-ul::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.saved-numbers-ul::-webkit-scrollbar-thumb {
+    background: rgb(72, 72, 72);
+    border-radius: 4px;
+}
+
+li {
+    text-align: center;
+    padding: 4px;
+    width: 9vw;
+    height: 5vw;
+    font-size: 1.6vw;
+    margin: 0 0.2vw;
+}
