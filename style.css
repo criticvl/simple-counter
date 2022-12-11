@@ -111,7 +111,7 @@ h2 {
     margin-bottom: 0px;
     list-style-type: none;
     width: 90%;
-    height: 40px;
+    height: fit-content;
     background: rgb(159, 159, 159);
     border-radius: 4px;
 }
@@ -134,7 +134,6 @@ li {
     text-align: center;
     padding: 4px;
     width: 9vw;
-    height: 5vw;
     font-size: 1.6vw;
     margin: 0 0.2vw;
 }
